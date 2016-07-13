@@ -61,7 +61,7 @@ If you run `git remote -v` to list remotes, you should now be able to see both y
 
 ## Rebase, Push to Your Fork, and Submit a Pull Request:
 1. Run `git pull --rebase upstream master` to rebase from the original repo. This ensures that your local cloned repo captures any changes made in the original since you began working.
-1. Push your changes to a new branch on your forked repo on github, with `git push remote [branch_name]`.
+1. Push your changes to a new branch on your forked repo on github, with `git push origin [branch_name]`.
 1. On Github, submit a Pull Request (PR) from the `[branch_name]` branch of your forked repo to the `Master` branch of the original repo.
 1. Ask a teammate to review and merge your PR.
 
