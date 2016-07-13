@@ -56,8 +56,8 @@ If you run `git remote -v` to list remotes, you should now be able to see both y
 1. From the repo directory in Terminal, see which files contain changes by typing `git status`.
 1. Add those files to your commit with `git add file1.md file2.md file3.md`
 1. Make your commit with `git commit`, which will open Vim.
-1. Type `i` to enter 'interactive' mode. Type a short commit message that describes the changes you made, like "Removed section on roles." 
-1. Press `ESC` to exit 'interactive mode', type `:wq` and hit `Enter` to `write` and `quit`.
+1. Type `i` to enter 'insert' mode. Type a short commit message that describes the changes you made, like "Removed section on roles." 
+1. Press `ESC` to exit 'insert' mode, type `:wq` and hit `Enter` to `write` and `quit`.
 
 ## Rebase, Push to Your Fork, and Submit a Pull Request:
 1. Run `git pull --rebase upstream master` to rebase from the original repo. This ensures that your local cloned repo captures any changes made in the original since you began working.
@@ -65,4 +65,4 @@ If you run `git remote -v` to list remotes, you should now be able to see both y
 1. On Github, submit a Pull Request (PR) from the `[branch_name]` branch of your forked repo to the `Master` branch of the original repo.
 1. Ask a teammate to review and merge your PR.
 
-This is a test.  Don't panic,if it were actually important, it would say something.
+This is a test. Don't panic, if it were actually important, it would say something.
