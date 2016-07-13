@@ -3,9 +3,8 @@
 ## Setup:
 
 1. In Terminal, verify that you have git installed. 
-```
-which git
-```
+
+> `which git`
 
 If the above command doesn't result in a listed directory, [download git](http://git-scm.com/download/mac).
 
@@ -16,35 +15,29 @@ On the `Categories` panel on the right hand side, select `Scripts > Make Me an A
 Run the git installer.
 
 2. On github, find the repo you want and fork it to your own github account.
-```
-https://github.com/gopro/some-repo
-```
+
+> `https://github.com/gopro/some-repo`
 
 3. Copy the URL for the forked repo on your account.
-```
-https://github.com/youraccount/some-repo
-```
+
+> `https://github.com/youraccount/some-repo`
 
 4. In Terminal, create a directory where to store all of your local cloned repos.
-```
-mkdir repo
-```
+
+> `mkdir repo`
 
 5. Navigate to that directory and clone your forked repo.
-```
-cd repo
-git clone https://github.com/youraccount/some-repo
-```
+
+> `cd repo`
+> `git clone https://github.com/youraccount/some-repo`
 
 6. Navigate into the resulting directory.
-```
-cd some-repo
-```
+
+> `cd some-repo`
 
 7. Add the original GoPro repo as a remote upstream repo for rebasing.
-```
-git remote add upstream https://github.com/gopro/some-repo
-```
+
+> `git remote add upstream https://github.com/gopro/some-repo`
 
 If you run `git remote -v` to list remotes, you should now be able to see both your fork (`origin`) and the original repo (`upstream`).
 
