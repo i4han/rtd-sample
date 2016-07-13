@@ -26,9 +26,9 @@ Run the git installer.
     ```
 
 4. In Terminal, create a directory where to store all of your local cloned repos.
-```
-mkdir repo
-```
+    ```
+    mkdir repo
+    ```
 
 5. Navigate to that directory and clone your forked repo.
     ```
