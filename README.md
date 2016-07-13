@@ -3,9 +3,9 @@
 ## Setup:
 
 1. In Terminal, verify that you have git installed.
-```
-`which git
-```
+    ```
+    which git
+    ```
 
 If the above command doesn't result in a listed directory, [download git](http://git-scm.com/download/mac).
 
